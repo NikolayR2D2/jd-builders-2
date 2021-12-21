@@ -29,3 +29,24 @@ replay_pid*
 *.iml
 *.ipr
 *.iws
+
+#gradle
+
+.gradle
+**/build/
+!src/**/build/
+gradle/
+gradlew
+gradlew.bat
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
